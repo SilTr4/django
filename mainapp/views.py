@@ -14,6 +14,7 @@ class NewsPageView(TemplateView):
         # добавть собственные данные
         content["news_title"] = "БОЛЬШОЙ НОВЫЙ ЗАГОЛОВОК"
         content["news_preview"] = "Ну очень важная информация, для всех"
+        content["range"] = range(5)
         return content
 
 
